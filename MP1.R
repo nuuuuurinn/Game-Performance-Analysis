@@ -1,15 +1,4 @@
----
-title: "STAT 380 - Mini Project 1: COD Game Data Exploration"
-author: "Anoop Ibrampur, Nurin Mustapa, Tony Shan"
-date: "October 11, 2025"
-output: html_document
----
 
-```
-{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-
-library(readxl)    
 library(dplyr)     
 library(lubridate)
 library(ggplot2)   
@@ -21,4 +10,3 @@ ggplot(cod, aes(x = GameType, fill = GameType)) +
   geom_bar(color = "black") +
   labs(title = "Distribution of Game Types"
        x = "Game Type", y = "Count")
-```
