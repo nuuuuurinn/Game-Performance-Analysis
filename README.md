@@ -3,10 +3,10 @@
 ## Project Overview
 The goal of this series was to understand the drivers of player performance, specifically focusing on how game types, weapon choices, and specific match actions (damage, eliminations) influence total score and experience points (XP).
 
-## Mini Project 1
-This foundational phase is focused on understanding the distribution of the dataset.
+### Mini Project 1
+This foundational phase is focused on understanding the distribution of the dataset. 
 
-• Key Tasks: Explored GameType, Eliminations, Score, and TotalXP.
+• Key Tasks: Explored both categorical and quantitative variables: GameType (categorical), Result (categorical), Eliminations (quantitative), Score (quantitative) and TotalXP (quantitative).
 
 • Insight: Discovered that "Team Deathmatch" (TDM) was the most frequent game mode and that player performance remained relatively steady over the three-month data period (June–August).
 
